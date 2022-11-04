@@ -169,7 +169,7 @@ def callback():
 
 
 @app.route("/callback/notify", methods=['GET'])  #當 /callback/notify 這個網頁收到 GET 時會做動
-def callback_nofity():
+def callback_notify():
     code = request.args.get('code')
 
     # Get Access-Token
